@@ -1,6 +1,9 @@
 Change History :-
 
 
+01-08-2015 : Version : 1.0, Build : 1a1
+-Created the view and view controller for search
+
 28-07-2015 : Version : 1.0, Build : 1
 - Initial Commit
 - Added CHANGELOG.txt file

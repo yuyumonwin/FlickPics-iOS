@@ -14,6 +14,7 @@
 		40EF16231B67D4490008EFF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EF16221B67D4490008EFF4 /* Images.xcassets */; };
 		40EF16261B67D4490008EFF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EF16241B67D4490008EFF4 /* LaunchScreen.xib */; };
 		40EF16321B67D4490008EFF4 /* FlickPicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EF16311B67D4490008EFF4 /* FlickPicsTests.swift */; };
+		76809FB31B6CFB0A00C9FF68 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76809FB21B6CFB0A00C9FF68 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		40EF162B1B67D4490008EFF4 /* FlickPicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickPicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EF16301B67D4490008EFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40EF16311B67D4490008EFF4 /* FlickPicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickPicsTests.swift; sourceTree = "<group>"; };
+		76809FB21B6CFB0A00C9FF68 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				40EF16241B67D4490008EFF4 /* LaunchScreen.xib */,
 				40EF161A1B67D4490008EFF4 /* FlickPics.xcdatamodeld */,
 				40EF16161B67D4490008EFF4 /* Supporting Files */,
+				76809FB21B6CFB0A00C9FF68 /* SearchViewController.swift */,
 			);
 			path = FlickPics;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				40EF161E1B67D4490008EFF4 /* ViewController.swift in Sources */,
 				40EF161C1B67D4490008EFF4 /* FlickPics.xcdatamodeld in Sources */,
+				76809FB31B6CFB0A00C9FF68 /* SearchViewController.swift in Sources */,
 				40EF16191B67D4490008EFF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,6 +351,7 @@
 				INFOPLIST_FILE = FlickPics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,6 +362,7 @@
 				INFOPLIST_FILE = FlickPics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -413,6 +419,7 @@
 				40EF16371B67D4490008EFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40EF16381B67D4490008EFF4 /* Build configuration list for PBXNativeTarget "FlickPicsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				40EF163A1B67D4490008EFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
